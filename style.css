@@ -1,1 +1,36 @@
-/* TODO: design your profile with CSS */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
+:root {
+    --main-bg-color: black;
+    --h1-font-color: azure;
+}
+
+body {
+    background-color: var(--main-bg-color);
+    font-family: 'open sans', sans-serif;
+    color: white;
+    font-size: 1em;
+    line-height: 1.2em;
+}
+
+h1 {
+    color: var(--h1-font-color);
+    font-size: 1.2em;
+}
+
+#profile {
+    width: 100px;
+    height: 100px;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: wheat;
+}
+
+.fa-volleyball {
+    color: red;
+}
+
+#nav>li>a {
+    color: rgb(255, 0, 0);
+}
