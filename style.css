@@ -22,6 +22,10 @@ h1 {
     height: 100px;
 }
 
+a {
+    text-decoration: none;
+}
+
 a:hover {
     text-decoration: underline;
     color: wheat;
@@ -33,4 +37,53 @@ a:hover {
 
 #nav>li>a {
     color: rgb(255, 0, 0);
+}
+
+#container {
+    margin: auto;
+    width: 50vw;
+    align-items: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+#card {
+    padding: 1em 0 1em 0;
+    background-color: rgba(29, 28, 28, 0.804);
+    border: 0.1em grey solid;
+    margin: 1em;
+    box-shadow: 2px 4px 4px rgba(255, 0, 0, 0.35);
+    height: auto;
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+
+ul.list-inline {
+    list-style: none;
+    padding-inline-start: 0px;
+    font-size: 3em;
+}
+
+.list-inline>li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+#btn-lewagon {
+    background-color: rgb(48, 47, 47);
+    border-radius: 5px;
+    color: white;
+    padding: 1em;
+    text-align: center;
+    display: block;
+    margin: auto;
+    width: fit-content;
+}
+
+#btn-lewagon:hover {
+    background-color: rgb(75, 75, 75);
 }
